@@ -1,3 +1,4 @@
+# git notes
 git remote add origin https://github.com/mike-driver/terraform-demo.git
 git branch -M master
 git push -u origin master
@@ -9,3 +10,6 @@ git add *
 git commit -m "some change"
 git push
 ... the config file in the .git folder will contain the reference to the origin and the branches created
+
+# terraform notes
+terrfaform int
