@@ -11,7 +11,7 @@ git push --set-upstream origin firstchange
 # ...
 #
 git merge <branch> ... (<branch> into current branch)
-git rebase <branch> ... (current branch into <branch>)
+git rebase <branch> ... (<branch> into current branch)
 
 # add to staging and committing
 git add *
