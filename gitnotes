@@ -2,3 +2,6 @@ git remote add origin https://github.com/mike-driver/terraform-demo.git
 git branch -M master
 git push -u origin master
 git commit -m "first commit"
+git branch firstchange
+git checkout firstchange
+git push --set-upstream origin firstchange
