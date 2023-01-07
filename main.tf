@@ -20,7 +20,7 @@ Name = "demo_t2_micro_linux_web_server"
 }
 
 resource "aws_s3_bucket" "b" {
-  bucket = "mikes-demo-bucket"
+  bucket = "mikes-demo-bucket988876r"
   acl    = "private"
 
   tags = {

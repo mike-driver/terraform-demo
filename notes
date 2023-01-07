@@ -12,4 +12,8 @@ git push
 ... the config file in the .git folder will contain the reference to the origin and the branches created
 
 # terraform notes
-terrfaform int
+terrfaform init
+terraform plan -var-file c:/secrets/secret.tfvars .. will compare state file to whats is actually there
+terraform apply -var-file c:/secrets/secret.tfvars .. will update any necessary additions or drift
+terraform destroy -var-file c:/secrets/secret.tfvars
+terraform show .. shows what should be there - ie. whats in the state file
