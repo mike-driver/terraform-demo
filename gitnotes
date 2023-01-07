@@ -8,3 +8,4 @@ git push --set-upstream origin firstchange
 git add *
 git commit -m "some change"
 git push
+... the config file in the .git folder will contain the reference to the origin and the branches created
