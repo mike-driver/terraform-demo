@@ -18,3 +18,13 @@ tags = {
 Name = "demo_t2_micro_linux_web_server"
   }
 }
+
+resource "aws_s3_bucket" "b" {
+  bucket = "mikes-demo-bucket"
+  acl    = "private"
+
+  tags = {
+    Name        = "Mikes bucket"
+    Environment = "Dev"
+  }
+}
