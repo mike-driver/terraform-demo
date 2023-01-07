@@ -5,3 +5,6 @@ git commit -m "first commit"
 git branch firstchange
 git checkout firstchange
 git push --set-upstream origin firstchange
+git add *
+git commit -m "some change"
+git push
