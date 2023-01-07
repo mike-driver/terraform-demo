@@ -1,18 +1,23 @@
-# git notes
+### git notes
+# 
 git remote add origin https://github.com/mike-driver/terraform-demo.git
 git branch -M master
 git push -u origin master
 git commit -m "first commit"
+# create a new branch and push it up...
 git branch firstchange
 git checkout firstchange
 git push --set-upstream origin firstchange
+# ...
+
+# add to staging and committing
 git add *
 git commit -m "some change"
 git commit -a -m "does the add and the commit in one"
 git push
-... the config file in the .git folder will contain the reference to the origin and the branches created
+# ... the config file in the .git folder will contain the reference to the origin and the branches created
 
-# terraform notes
+### terraform notes
 terrfaform init
 terraform plan -var-file c:/secrets/secret.tfvars .. will compare state file to whats is actually there
 terraform apply -var-file c:/secrets/secret.tfvars .. will update any necessary additions or drift
