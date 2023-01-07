@@ -9,6 +9,8 @@ git branch firstchange
 git checkout firstchange
 git push --set-upstream origin firstchange
 # ...
+#
+git merge <branch> ... (into current branch)
 
 # add to staging and committing
 git add *
